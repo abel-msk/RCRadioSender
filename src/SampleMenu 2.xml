@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<RootMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Config IdPrefix="MENU_" VarPrefix="sampleMenu" UseNumbering="false" IncludeNumberHierarchy="false"
+          MaxNameLen="21" MenuBackFirstItem="false" BackText="Back" ExitText="Exit" AvrProgMem="true" />
+<MenuItems>
+	<Item Id="PROF" Name="Load Profile"/>
+    <Item Id="RID" Name="Set remote ID"/>
+    <Item Id="CALLB" Name="Callibration"/>
+	<Item Id="SLPTM" Name="Sleep time"/>
+	<Item Id="KCODE" Name="Key Codes">	
+    	<MenuItems>
+      	  	<Item Id="LUPKEY" Name="Left Up Key"/>
+      		<Item Id="LDWKEY" Name="Left Down Key"/>
+      		<Item Id="RUPKEY" Name="Right Up Key"/>
+			<Item Id="RDWKEY" Name="Right Down Key"/>
+    	</MenuItems>
+	</Item>
+	<Item Id="SWPJS" Name="Swap Joystic"/>
+	<Item Id="SAVEPRF" Name="Save Current profile"/>
+</MenuItems>
+</RootMenu>

@@ -1,0 +1,25 @@
+{
+	"folders": [
+        {
+            "path": "../../common/lib"
+        },
+        {
+            "name": "RC Radio sender",
+            "path": "."
+        },
+        {
+            "name": "DisplayTest",
+            "path": "../DisplayTest"
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "*.rst": "restructuredtext",
+            "array": "cpp",
+            "string": "cpp",
+            "string_view": "cpp",
+            "vector": "cpp"
+        },
+        "makefile.extensionOutputFolder": "./.vscode"
+    }
+}

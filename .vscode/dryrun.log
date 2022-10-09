@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/abel/Documents/PlatformIO/Projects/RC Radio sender'
+make: Leaving directory `/Users/abel/Documents/PlatformIO/Projects/RC Radio sender'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
