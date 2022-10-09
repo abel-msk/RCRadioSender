@@ -8,7 +8,7 @@
 #include "config.h"
 #include "proppl5x7_font.h"
 // #include <ArduinoArray.h>
-#include "ArduinoArray.h"
+// #include "ArduinoArray.h"
 
 
 
